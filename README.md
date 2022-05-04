@@ -10,7 +10,8 @@ jobs:
     - name: Compute semantic version
       uses: havendv/compute-semantic-version@master
       with:
-        token: ${{ secrets.github_token }}        
+        start-version: 1.0.0
+
     - name: Print semantic version
       run: echo "Semantic version is $SEMANTIC_VERSION"
       # Or, if you're on Windows: echo "Semantic version is ${env:SEMANTIC_VERSION}"
@@ -27,8 +28,6 @@ jobs:
     - name: Compute semantic version
       id: compute-semantic-version
       uses: havendv/compute-semantic-version@master
-      with:
-        token: ${{ secrets.github_token }}        
     
     # Now you can pass ${{ steps.compute-semantic-version.outputs.version }} to the next steps.
     - name: Another step as an example
@@ -56,8 +55,6 @@ jobs:
     - name: Compute semantic version
       id: compute-semantic-version
       uses: havendv/compute-semantic-version@master
-      with:
-        token: ${{secrets.github_token}}
           
   job2:
     needs: job1

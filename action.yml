@@ -1,13 +1,11 @@
-name: 'Semantic Version Generator'
-description: 'Generate sequential semantic versions for workflow runs based on convectional commits'
+name: 'Compute Semantic Version based on Conventional Commits'
+description: 'Compute semantic versions for workflow runs based on Conventional Commits'
 author: 'Konstantin Stukov'
 runs:
   using: 'node12'
   main: 'main.js'
+
 inputs:
-  token:
-    description: 'GitHub Token to create and delete refs (GITHUB_TOKEN)'
-    required: false # Not required when getting the stored build number for later jobs, only in the first jobs when it's generated
   start-version:
     description: 'Start version(like 0.9.0 or 1.0.0). Default: 1.0.0'
     required: false
