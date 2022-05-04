@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32427.441
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputeSemanticVersion", "src\ComputeSemanticVersion.csproj", "{A7511F0A-B584-4300-8CC9-3B6B63385186}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64BB5240-BD69-4CC0-A254-0DD306EAE103}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		action.yml = action.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		LICENSE = LICENSE
+		main.js = main.js
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7511F0A-B584-4300-8CC9-3B6B63385186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7511F0A-B584-4300-8CC9-3B6B63385186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7511F0A-B584-4300-8CC9-3B6B63385186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7511F0A-B584-4300-8CC9-3B6B63385186}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16EDE078-A8B0-4E82-BBA7-6A9A3A538F49}
+	EndGlobalSection
+EndGlobal
